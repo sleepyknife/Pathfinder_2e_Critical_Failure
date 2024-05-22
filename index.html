@@ -1,0 +1,64 @@
+<html lang = "en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+		<title>PathFinder 2E Critical Failure Result</title>
+		<script src="https://randojs.com/1.0.0.js"></script>
+		<style>
+            #myNumber{
+                font-size:100px;
+                text-align:center;
+                margin:50px auto;
+                font-family:Arial, sans-serif;
+            }
+        </style>
+	</head>
+	
+	<body>
+		<p> 隨機數字為 </p>
+        <p id="myNumber"></p>
+		
+		鈍擊攻擊：<i id="Bludgeoning_name"></i>
+		<br></br>
+		<b id="Bludgeoning_effect"></b> 
+		<br></br>
+		<hr size="1px" align="center" width="100%">
+		穿刺攻擊：<i id="Piercing_name"></i>
+		<br></br>
+		<b id="Piercing_effect"></b> 
+		<br></br>
+		<hr size="1px" align="center" width="100%">
+		揮砍攻擊：<i id="Slashing_name"></i>
+		<br></br>
+		<b id="Slashing_effect"></b> 
+		<br></br>
+		<hr size="1px" align="center" width="100%">
+		法術攻擊：<i id="Other_name"></i>
+		<br></br>
+		<b id="Other_effect"></b> 
+
+		
+		<script>
+			var xmlhttp = new XMLHttpRequest();
+			xmlhttp.onreadystatechange = function() {
+			  if (this.readyState == 4 && this.status == 200) {
+				var myObj = JSON.parse(this.responseText);
+				var random_number = rando(0, 52);
+				document.getElementById("myNumber").innerHTML = random_number+1;
+				document.getElementById("Bludgeoning_name").innerHTML = myObj.number[random_number].type.Bludgeoning.name;
+				document.getElementById("Bludgeoning_effect").innerHTML = myObj.number[random_number].type.Bludgeoning.effect;
+				document.getElementById("Piercing_name").innerHTML = myObj.number[random_number].type.Piercing.name;
+				document.getElementById("Piercing_effect").innerHTML = myObj.number[random_number].type.Piercing.effect;
+				document.getElementById("Slashing_name").innerHTML = myObj.number[random_number].type.Slashing.name;
+				document.getElementById("Slashing_effect").innerHTML = myObj.number[random_number].type.Slashing.effect;
+				document.getElementById("Other_name").innerHTML = myObj.number[random_number].type.Other.name;
+				document.getElementById("Other_effect").innerHTML = myObj.number[random_number].type.Other.effect;
+			  }
+			};
+			xmlhttp.open("GET", "https://raw.githubusercontent.com/sleepyknife/Pathfinder_2e_Critical_Hits/master/Ref/zh-TW.json");
+			xmlhttp.send();
+			
+        </script>
+	</body>
+</html>
