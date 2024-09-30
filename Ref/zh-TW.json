@@ -2,6 +2,7 @@
 	"number" : 
 	[
 		{
+			"index": 1,
 			"type":
 			{
 				"Bludgeoning"	:	
@@ -27,6 +28,7 @@
 			}
 		},
 		{
+			"index": 2,
 			"type":
 			{
 				"Bludgeoning"	:	
@@ -52,6 +54,7 @@
 			}
 		},
 		{
+			"index": 3,
 			"type":
 			{
 				"Bludgeoning"	:	
@@ -77,6 +80,7 @@
 			}
 		},
 		{
+			"index": 4,
 			"type":
 			{
 				"Bludgeoning"	:	
@@ -102,6 +106,7 @@
 			}
 		},
 		{
+			"index": 5,
 			"type":
 			{
 				"Bludgeoning"	:	
@@ -127,6 +132,7 @@
 			}
 		},
 		{
+			"index": 6,
 			"type":
 			{
 				"Bludgeoning"	:	
@@ -152,6 +158,7 @@
 			}
 		},
 		{
+			"index": 7,
 			"type":
 			{
 				"Bludgeoning"	:	
@@ -177,6 +184,7 @@
 			}
 		},
 		{
+			"index": 8,
 			"type":
 			{
 				"Bludgeoning"	:	
@@ -331,23 +339,23 @@
 			{
 				"Bludgeoning"	:	
 				{
-					"name"		:	"裝甲破壞(Armor Dent)",
-					"effect"	:	"一倍傷害，(Crit Effect) 對其裝甲造成同等數值傷害，無視其硬度。"
+					"name"		:	"尷尬的攻擊(AWKARD Attack)",
+					"effect"	:	"你處於措手不及(flat-footed)狀態，直到你的下一回合結束"
 				},
 				"Piercing"		:	
 				{
-					"name"		:	"眼睛貼布(Eye Patch for You)",
-					"effect"	:	"三倍傷害，(Crit Effect) 目標陷入頭暈目眩(dazzled)，直到接受治療。"
+					"name"		:	"射爆你的眼(SHOT YOUR EYE OUT)",
+					"effect"	:	"你非常成功的對自己致命一擊(Critical Hit)"
 				},
 				"Slashing"		:	
 				{
-					"name"		:	"用力過猛(Flat-Blade Thwack)",
-					"effect"	:	"三倍傷害，你可以改為造成鈍擊類型傷害。"
+					"name"		:	"疲憊一擊(TIRED ATTACK)",
+					"effect"	:	"你陷入疲倦狀態(fatigued)"
 				},
 				"Other" 		:	
 				{
-					"name"		:	"魔法輪廓(Magical Glow)",
-					"effect"	:	"目標視同被妖火術(faerie fire)所環繞，效果持續一分鐘。"
+					"name"		:	"酸液反噬(ACIDIC BACKLASH)",
+					"effect"	:	"你受到 2d6 點酸液傷害。"
 				}
 			}
 		},
@@ -356,23 +364,23 @@
 			{
 				"Bludgeoning"	:	
 				{
-					"name"		:	"腦髓直擊(Soul-Crushing Blow)",
-					"effect"	:	"(Crit Effect) 目標陷入毀滅(doom)1，並且陷入笨拙(stupefied)1，直到毀滅狀態解除。"
+					"name"		:	"肌肉拉傷(PULLED MUSCLE)",
+					"effect"	:	"直到治療前，你處於衰弱2(Enfeebled 2)狀態"
 				},
 				"Piercing"		:	
 				{
-					"name"		:	"擊退(Knockback)",
-					"effect"	:	"擊退目標10 feet。"
+					"name"		:	"尷尬的攻擊(AWKARD Attack)",
+					"effect"	:	"你處於措手不及(flat-footed)狀態，直到你的下一回合結束。"
 				},
 				"Slashing"		:	
 				{
-					"name"		:	"裝甲傷害(Armor Damage)",
-					"effect"	:	"目標裝甲也遭受到相同數值傷害(正常考慮裝甲硬度)。"
+					"name"		:	"咬到舌頭(BIT YOUR TONGUE)",
+					"effect"	:	"你受到 1 點持續流血傷害"
 				},
 				"Other" 		:	
 				{
-					"name"		:	"法術蒸發(Draining Strike)",
-					"effect"	:	"目標失去一個準備的法術或是一個法術格。(由GM決定)"
+					"name"		:	"自燃(SPONTANEOUS COMBUSTION)",
+					"effect"	:	"你受到 2d6 點火焰傷害"
 				}
 			}
 		},
@@ -381,23 +389,23 @@
 			{
 				"Bludgeoning"	:	
 				{
-					"name"		:	"擊碎手骨(Shattered Hand)",
-					"effect"	:	"一倍傷害，目標陷入笨拙(clumsy)2，力竭(enfeebled)2，該手無法使用，直到接受治療。"
+					"name"		:	"手指蘿蔔(PIN PRICK)",
+					"effect"	:	"你受到 1 點持續流血傷害。"
 				},
 				"Piercing"		:	
 				{
-					"name"		:	"砍掉耳朵(Right in the Ear)",
-					"effect"	:	"一倍傷害，目標陷入耳聾，直到接受治療。"
+					"name"		:	"子彈散落(SPILLED AMMO)",
+					"effect"	:	"你所使用武器的彈藥從其容器中掉落至地上。你可以花費 1 次互動動作來撿起一發彈藥或法術物品。"
 				},
 				"Slashing"		:	
 				{
-					"name"		:	"走開(Stand Aside)",
-					"effect"	:	"目標被擊退5 feet"
+					"name"		:	"借咬一口(JUST A TASTE)",
+					"effect"	:	"攻擊目標相鄰的隊友"
 				},
 				"Other" 		:	
 				{
-					"name"		:	"吸血鬼汲取(Vampiric Feedback)",
-					"effect"	:	"一倍傷害，你得到等同於造成傷害的HP恢復。"
+					"name"		:	"疲憊法術(TIRING SPELL)",
+					"effect"	:	"你陷入疲倦狀態(fatigued)"
 				}
 			}
 		},
@@ -406,23 +414,23 @@
 			{
 				"Bludgeoning"	:	
 				{
-					"name"		:	"敲掉東西(Numbing Blow)",
-					"effect"	:	"一倍傷害，(Crit Effect) 目標陷入笨拙(clumsy)1，持續一分鐘，且必須進行反射(Reflex)豁免，失敗有東西被打落。(武器or盾)"
+					"name"		:	"頭昏腦脹(SPINNING SWING)",
+					"effect"	:	"你處於噁心 2(Sickened 2) 狀態。"
 				},
 				"Piercing"		:	
 				{
-					"name"		:	"開胸手術(Sucking Chest Wound)",
-					"effect"	:	"目標陷入疲乏(fatigued)。"
+					"name"		:	"缺口傷(NICKED)",
+					"effect"	:	"你受到 1 點持續流血傷害"
 				},
 				"Slashing"		:	
 				{
-					"name"		:	"撕裂傷(Overhand Chop)",
-					"effect"	:	"(Crit Effect) 目標得到1d8持續流血傷害。"
+					"name"		:	"卷再一起(TWISTED UP)",
+					"effect"	:	"你受到過重(encumbered)狀態，直到你花費 2 次互動動作來解脫。"
 				},
 				"Other" 		:	
 				{
-					"name"		:	"擊退(Knockback)",
-					"effect"	:	"目標被擊退10 feet。"
+					"name"		:	"打錯人(APPRENTICE MOVE)",
+					"effect"	:	"重擲攻擊骰，攻擊目標附近最近的生物（不包含自己）"
 				}
 			}
 		},
@@ -431,23 +439,23 @@
 			{
 				"Bludgeoning"	:	
 				{
-					"name"		:	"你還是倒下ㄅ(And Stay Down!)",
-					"effect"	:	"一倍傷害，(Crit Effect) 目標被擊倒，並且震懾(stunned)2。"
+					"name"		:	"過度緊張(STRAINED)",
+					"effect"	:	"直到治療前，你處於笨拙 2 (clumsy 2)狀態。"
 				},
 				"Piercing"		:	
 				{
-					"name"		:	"插呼吸器喔(Ventilated)",
-					"effect"	:	"三倍傷害。"
+					"name"		:	"OOOOPS(WHOOPS)",
+					"effect"	:	"你倒地(Prone)。"
 				},
 				"Slashing"		:	
 				{
-					"name"		:	"擊退(Knockback)",
-					"effect"	:	"目標被擊退10 feet。"
+					"name"		:	"感覺不對(OUT OF POSITION)",
+					"effect"	:	"直到你下一回合結束前，你無法使用這項攻擊方式。"
 				},
 				"Other" 		:	
 				{
-					"name"		:	"冰雪奇緣(Frozen)",
-					"effect"	:	"若是造成冷凍傷害，造成三倍傷害，並且緩慢(slow)2，持續一輪；其餘造成兩倍傷害。"
+					"name"		:	"呆若木雞(MIND DRAIN)",
+					"effect"	:	"直到治療前，你處於癡呆 1 (stupefied 1)狀態。"
 				}
 			}
 		},
@@ -456,23 +464,23 @@
 			{
 				"Bludgeoning"	:	
 				{
-					"name"		:	"看到星星惹(I See Stars)",
-					"effect"	:	"一倍傷害，(Crit Effect) 目標陷入頭暈目眩(dazzled)，直到接受治療。"
+					"name"		:	"抱歉!!(SORRY!)",
+					"effect"	:	"你擊中自己附近的盟友，或是目標附近的盟友。"
 				},
 				"Piercing"		:	
 				{
-					"name"		:	"洞洞(Pinhole)",
-					"effect"	:	"(Crit Effect) 目標受到1點持續流血傷害，直到接受治療。"
+					"name"		:	"目標不見了!(LOST THE TARGET)",
+					"effect"	:	"你的攻擊檢定受到 -2 環境減值，直到你的下一回合結束。"
 				},
 				"Slashing"		:	
 				{
-					"name"		:	"去除腸衣(Disembowel)",
-					"effect"	:	"三倍傷害。"
+					"name"		:	"扭傷(SPRAIN)",
+					"effect"	:	"直到治療前，你處於笨拙 2 (clumsy 2)狀態。"
 				},
 				"Other" 		:	
 				{
-					"name"		:	"導管(Conduit)",
-					"effect"	:	"目標AC與所有SV-2，對抗你的法術或是炸彈，效果直到目標下一輪結束。"
+					"name"		:	"虛弱(WEAKENED)",
+					"effect"	:	"你的法術攻擊檢定及法術 DC 受到 -2 情境減值，直到你的下一回合結束。"
 				}
 			}
 		},
@@ -481,23 +489,23 @@
 			{
 				"Bludgeoning"	:	
 				{
-					"name"		:	"橫掃拌摔(Earth Rumble)",
-					"effect"	:	"一倍傷害，(Crit Effect) 目標及其相鄰的所有敵人，進行反射(Reflex)豁免，失敗倒地。"
+					"name"		:	"武器卡住(WEAPON TANGLE)",
+					"effect"	:	"直到你的下一回合結束前，你無法使用此武器進行攻擊。"
 				},
 				"Piercing"		:	
 				{
-					"name"		:	"脆弱點(Vulnerable Spot)",
-					"effect"	:	"目標陷入措手不及(flat-footed)，直到接受治療。"
+					"name"		:	"戲劇性的沒打到(AMAZING MISS)",
+					"effect"	:	"你處於震懾 1 (stunned 1)狀態。"
 				},
 				"Slashing"		:	
 				{
-					"name"		:	"破盾(Shield Cleave)",
-					"effect"	:	"對目標盾牌造成一倍傷害(正常計算硬度)。"
+					"name"		:	"傷到骨頭(BONE BRUISE)",
+					"effect"	:	"你變成負傷(Wound) 1 或負傷值增加 1。"
 				},
 				"Other" 		:	
 				{
-					"name"		:	"野性浪潮(Wild Surge)",
-					"effect"	:	"一倍原本類型傷害+一倍隨機類型傷害(1d4：酸、冰、火、電)。"
+					"name"		:	"他變大了(YOU MADE 'EM BIGGER)",
+					"effect"	:	"目標體型變大，並受到 2 級變巨術(enlarge)的效果影響。"
 				}
 			}
 		},
@@ -506,23 +514,23 @@
 			{
 				"Bludgeoning"	:	
 				{
-					"name"		:	"金剛腿是吧(Foot Smash)",
-					"effect"	:	"目標陷入措手不及(flat-footed)直到其下一輪結束。"
+					"name"		:	"歪了(BENT)",
+					"effect"	:	"你的武器當前生命值降到損壞門檻值(BT)。若已損壞，武器受到 3d6 傷害，無視硬度值。"
 				},
 				"Piercing"		:	
 				{
-					"name"		:	"臟器破壞(Organ Scramble)",
-					"effect"	:	"三倍傷害，(Crit Effect) 目標陷入疲乏(fatigued)。"
+					"name"		:	"雙倍損失(DOUBLE MISS)",
+					"effect"	:	"若此次攻擊使用了彈藥，你會額外消耗一倍的彈藥量。"
 				},
 				"Slashing"		:	
 				{
-					"name"		:	"斷翅(Wing Tear)",
-					"effect"	:	"目標失去飛行能力，直到接受治療。"
+					"name"		:	"抓到你惹(CAUGHT YOUR ATTACK)",
+					"effect"	:	"目標抓住你，並於你的下一回合觸發一次絆倒(Trip)或推擠(Shove)的反應。"
 				},
 				"Other" 		:	
 				{
-					"name"		:	"能量噴發(Energy Might)",
-					"effect"	:	"若造成酸、冰、火、電、聲音類型傷害，則造成三倍傷害；其餘造成兩倍傷害。"
+					"name"		:	"踉蹌(LEFT REELING)",
+					"effect"	:	"你處於震懾 1 (stunned 1)狀態。"
 				}
 			}
 		},
@@ -531,23 +539,23 @@
 			{
 				"Bludgeoning"	:	
 				{
-					"name"		:	"重擊(Solid Blow)",
-					"effect"	:	"三倍傷害。"
+					"name"		:	"嚴重的誤算(GRAVE MISCALCULATION)",
+					"effect"	:	"你用此次攻擊對自己造成致命一擊。"
 				},
 				"Piercing"		:	
 				{
-					"name"		:	"頑強傷害(Tenacious Wound)",
-					"effect"	:	"一倍傷害，(Crit Effect) 此傷害無法恢復，需要至少進行一次完整長休。"
+					"name"		:	"完美的揮空倒地(KICKBACK LIKE A MULE)",
+					"effect"	:	"你倒地"
 				},
 				"Slashing"		:	
 				{
-					"name"		:	"格擋攻擊(Parry Strike)",
-					"effect"	:	"(Crit Effect) 得到+2 AC；直到你的下一輪結束。"
+					"name"		:	"找不到空檔(CAN'T FIND AN OPENING)",
+					"effect"	:	"直到你的下一回合結束前，你無法使用此攻擊。"
 				},
 				"Other" 		:	
 				{
-					"name"		:	"變成靈體(Phased)",
-					"effect"	:	"目標變成靈體狀態(incorporeal)，直到你的下一輪結束。怪物手冊p.346。"
+					"name"		:	"兩眼發白(DRAWING A BLANK)",
+					"effect"	:	"直到治療前，你處於癡呆 1 (stupefied 1)狀態。"
 				}
 			}
 		},
@@ -556,23 +564,23 @@
 			{
 				"Bludgeoning"	:	
 				{
-					"name"		:	"橫掃(Roundhouse)",
-					"effect"	:	"(Crit Effect) 進行一次額外的攻擊，鄰近目標的其他敵人。此攻擊使用與原本攻擊的相同調整值。"
+					"name"		:	"打到裝甲(ARMOR SMASH)",
+					"effect"	:	"你的攻擊對裝甲造成正常傷害，無視硬度值。"
 				},
 				"Piercing"		:	
 				{
-					"name"		:	"開放傷口(Ragged Wound)",
-					"effect"	:	"目標得到1d6持續流血傷害。"
+					"name"		:	"失去握力(LOST GRIP)",
+					"effect"	:	"直到你的下一回合結束前，你處於遲緩 2 (Slow 2)狀態。"
 				},
 				"Slashing"		:	
 				{
-					"name"		:	"延遲性切口(Delayed Wound)",
-					"effect"	:	"一倍傷害，(Crit Effect) 在目標兩輪結束後，受到同樣數值的傷害。"
+					"name"		:	"酒醉(BATTERED)",
+					"effect"	:	"直到治療前，你的所有檢定及豁免受到 -2 情境減值。"
 				},
 				"Other" 		:	
 				{
-					"name"		:	"擊退噴射(Concussive Blast)",
-					"effect"	:	"目標被擊退10 feet，並且倒下。"
+					"name"		:	"↘大↗爆↘噴↗(UNEXPECTED BLAST)",
+					"effect"	:	"你的法術影響範圍內 30 英尺的所有目標。你對此效果免疫。"
 				}
 			}
 		},
@@ -581,23 +589,23 @@
 			{
 				"Bludgeoning"	:	
 				{
-					"name"		:	"誰關燈了(Light Out)",
-					"effect"	:	"(Crit Effect) 目標陷入目盲(Blinded)，直到其下一輪結束。"
+					"name"		:	"送你(HAND IT OVER)",
+					"effect"	:	"若你未成功通過反射豁免，目標會奪走你的武器。"
 				},
 				"Piercing"		:	
 				{
-					"name"		:	"二頭肌撕裂(Bicep Wound)",
-					"effect"	:	"目標陷入疲乏(enfeebled)1，直到接受治療。"
+					"name"		:	"壞了(BROKEN)",
+					"effect"	:	"你的武器當前生命值降到損壞門檻值(BT)。若已損壞，武器受到 3d6 傷害，無視硬度值。"
 				},
 				"Slashing"		:	
 				{
-					"name"		:	"撲朔迷離的一擊(Bewildering Display)",
-					"effect"	:	"(Crit Effect) 目標陷入措手不及(flat-footed)，直到其下一輪結束。"
+					"name"		:	"揍地板(SMASH THE FLOOR)",
+					"effect"	:	"你踢起一陣塵土，並陷入致盲(Blinded)狀態直到你的下一回合結束。"
 				},
 				"Other" 		:	
 				{
-					"name"		:	"咆嘯噴射(Roaring Blast)",
-					"effect"	:	"目標陷入耳聾(deafened)，直到接受治療。"
+					"name"		:	"你幫他們加速了(YOU MADE 'EM FASTER)",
+					"effect"	:	"目標進入加速(Quickened)狀態，持續 2 個回合。"
 				}
 			}
 		},
@@ -606,23 +614,23 @@
 			{
 				"Bludgeoning"	:	
 				{
-					"name"		:	"打碎膝蓋(Cracked Knee)",
-					"effect"	:	"(Crit Effect) 目標陷入笨拙(clumsy)2，移動-5 foot移動懲罰，直到接受治療。"
+					"name"		:	"累(WINDED)",
+					"effect"	:	"你處於疲倦狀態(fatigued)。"
 				},
 				"Piercing"		:	
 				{
-					"name"		:	"小腿刺刺(Calf Jab)",
-					"effect"	:	"(Crit Effect) 目標陷入笨拙(clumsy)1，移動-10 foot移動懲罰，直到接受治療。"
+					"name"		:	"排列錯誤(BAD ALIGNMENT)",
+					"effect"	:	"在使用此武器進行攻擊時，受到 -2 情境減值，直到你的下一回合結束。"
 				},
 				"Slashing"		:	
 				{
-					"name"		:	"怪異傷口(Ugly Wound)",
-					"effect"	:	"目標進行魅力相關檢定-2，除了威嚇。"
+					"name"		:	"反咬一口(IT BIT YOUR FIST)",
+					"effect"	:	"目標對你造成咬合傷害。"
 				},
 				"Other" 		:	
 				{
-					"name"		:	"你看到我ㄌ(Now You See Me...)",
-					"effect"	:	"你變成隱形狀態，直到你的下一輪結束，或是你使用任何攻擊行為。"
+					"name"		:	"能量耗損(POOR TRADE)",
+					"effect"	:	"你失去一個已準備的法術或最高等級的法術欄位（由你選擇）。"
 				}
 			}
 		},
@@ -631,23 +639,23 @@
 			{
 				"Bludgeoning"	:	
 				{
-					"name"		:	"氣勢上來了(Momentum)",
-					"effect"	:	"你進行所有攻擊骰+2，直到你的下一輪結束。"
+					"name"		:	"猶豫(CREEPING HESITATION)",
+					"effect"	:	"你處於措手不及狀態(flat-footed)，直到你的下一回合結束。"
 				},
 				"Piercing"		:	
 				{
-					"name"		:	"刺倒(Blowback)",
-					"effect"	:	"目標倒下。"
+					"name"		:	"不安全感(INSECURE)",
+					"effect"	:	"攻擊檢定受到 -1 情境減值，直到你造成致命一擊。"
 				},
 				"Slashing"		:	
 				{
-					"name"		:	"擒抱攻擊(Tangled)",
-					"effect"	:	"(Crit Effect) 你可以進行擒抱做為免費動作。此擒抱等同於目前攻擊的多攻懲罰，且不會計算後續的攻擊次數。"
+					"name"		:	"失聰(GREAT ROAR)",
+					"effect"	:	"直到治療前，你處於失聰狀態(deafened)。"
 				},
 				"Other" 		:	
 				{
-					"name"		:	"漂亮的顏色(Pretty Color)",
-					"effect"	:	"目標陷入頭暈目眩(dazzled)，直到你的下一輪結束。"
+					"name"		:	"錯誤!(ERROR)",
+					"effect"	:	"你對自己造成法術的正常傷害，而非對目標造成傷害。"
 				}
 			}
 		},
@@ -656,23 +664,23 @@
 			{
 				"Bludgeoning"	:	
 				{
-					"name"		:	"無力化格擋(Feeble Parry)",
-					"effect"	:	"(Crit Effect) 你打落目標正在揮舞的一件武器。(GM決定)"
+					"name"		:	"轟然巨響(RANG YOUR OWN BELL)",
+					"effect"	:	"直到治療前，你處於失聰狀態(deafened)"
 				},
 				"Piercing"		:	
 				{
-					"name"		:	"肩膀傷口(Shoulder Wound)",
-					"effect"	:	"(Crit Effect) 目標陷入笨拙(clumsy)，疲乏(enfeebled)2，直到接受治療。"
+					"name"		:	"腳滑(LOWERED GUARD)",
+					"effect"	:	"你會觸發反應，就像你使用了移動動作。"
 				},
 				"Slashing"		:	
 				{
-					"name"		:	"肌腱88(Hamstring)",
-					"effect"	:	"一倍傷害(Crit Effect) 目標倒下，並且陷入笨拙(clumsy)2，直到接受治療。"
+					"name"		:	"兇猛的失敗(FEROCIOUS FUMBLE)",
+					"effect"	:	"你對你觸及範圍內的盟友造成致命一擊（由 GM 決定）。"
 				},
 				"Other" 		:	
 				{
-					"name"		:	"法術限制(Cut off from Magic)",
-					"effect"	:	"一倍傷害，目標1d4輪無法使用魔法物品及施法。"
+					"name"		:	"法術的感受消失了(THE MAGIC IS GONE)",
+					"effect"	:	"攻擊檢定受到 -1 情境減值，直到你造成致命一擊。"
 				}
 			}
 		},
@@ -681,23 +689,23 @@
 			{
 				"Bludgeoning"	:	
 				{
-					"name"		:	"累累敲(Tiring Blow)",
-					"effect"	:	"目標陷入力竭(fatigued)"
+					"name"		:	"卡住(STUCK)",
+					"effect"	:	"你的武器被卡在附近的表面或地形中。要將其拔出，你必須通過一次 DC 20 的運動檢定作為互動動作。"
 				},
 				"Piercing"		:	
 				{
-					"name"		:	"腳部傷口(Leg Wound)",
-					"effect"	:	"(Crit Effect) 目標陸地移動-5 foot，直到接受治療。"
+					"name"		:	"射手肩(ARCHER'S ELBOW)",
+					"effect"	:	"直到治療前，你的遠程攻擊受到 -2 情境減值。"
 				},
 				"Slashing"		:	
 				{
-					"name"		:	"轉圈圈(Spun Around)",
-					"effect"	:	"目標陷入措手不及(flat-footed)，直到其下一輪結束。"
+					"name"		:	"失去平衡(OFF BALANCE)",
+					"effect"	:	"你受到遲緩 2 (Slow 2)狀態，直到你的下一回合結束。"
 				},
 				"Other" 		:	
 				{
-					"name"		:	"時間漩渦(Time Vortex)",
-					"effect"	:	"一倍傷害，目標會消失1d4輪後再度出現在原地。"
+					"name"		:	"法術護盾(SPELL SHIELD)",
+					"effect"	:	"目標在接下來 1 分鐘內對法術的豁免檢定獲得 +2 狀態加值。"
 				}
 			}
 		},
@@ -706,23 +714,23 @@
 			{
 				"Bludgeoning"	:	
 				{
-					"name"		:	"背部打擊(Back Breaker)",
-					"effect"	:	"(Crit Effect) 目標陷入笨拙(clumsy)2，力竭(enfeebled)2，直到接受治療。"
+					"name"		:	"快樂骨(FUNNY BONE)",
+					"effect"	:	"你掉落手中持有的一件物品（由 GM 隨機決定）。"
 				},
 				"Piercing"		:	
 				{
-					"name"		:	"深層傷口(Deep Wound)",
-					"effect"	:	"(Crit Effect) 目標陷入虛弱(sickened)3。"
+					"name"		:	"小心夥伴(NOT MY PONY)",
+					"effect"	:	"你擊中了最近的動物夥伴、坐騎或魔寵。"
 				},
 				"Slashing"		:	
 				{
-					"name"		:	"眉頭傷口(Brow Cut)",
-					"effect"	:	"一倍傷害，(Crit Effect) 目標受到1d4持續流血傷害，並且在傷害結束前，對所有目標視為隱藏。"
+					"name"		:	"敲到頭(BAD HEADBUTT)",
+					"effect"	:	"你處於震懾 1 (stunned 1)狀態。"
 				},
 				"Other" 		:	
 				{
-					"name"		:	"法術妨礙(Mystical Thwart)",
-					"effect"	:	"目標無法使用法術道具、法術、快速煉金，直到其下一輪結束。"
+					"name"		:	"法術阻塞(CASTER'S BLOCK)",
+					"effect"	:	"在你休息並進行每日準備之前，你無法再次施放此法術。"
 				}
 			}
 		},
@@ -731,23 +739,23 @@
 			{
 				"Bludgeoning"	:	
 				{
-					"name"		:	"打斷鼻樑(Broken Nose)",
-					"effect"	:	"目標得到1d4持續流血傷害。"
+					"name"		:	"咚(BONK)",
+					"effect"	:	"你處於震懾 2 (stunned 2)狀態。"
 				},
 				"Piercing"		:	
 				{
-					"name"		:	"今年是兩倍(Two in a Row)",
-					"effect"	:	"(Crit Effect) 對目標相鄰的另一個目標造成一倍傷害。"
+					"name"		:	"射到腳(SHOT YOUR FOOT)",
+					"effect"	:	"直到治療前，你處於笨拙 2 (clumsy 2)狀態，且你的陸地速度減少 5 英尺。"
 				},
 				"Slashing"		:	
 				{
-					"name"		:	"武器打擊(Weapon Strike)",
-					"effect"	:	"(Crit Effect) 對目標武器造成一倍傷害(計算武器硬度)。"
+					"name"		:	"耗竭(OVEREXERTION)",
+					"effect"	:	"你處於疲倦狀態(fatigued)。"
 				},
 				"Other" 		:	
 				{
-					"name"		:	"神經傷害(Nerve Damage)",
-					"effect"	:	"一倍傷害，目標陷入緩慢(slow)1，直到其下一輪結束。"
+					"name"		:	"副作用(SIDE EFFECT)",
+					"effect"	:	"你受到噁心 1 (sickened 1)狀態，並且在治療前處於癡呆 2 (stupefied 2)狀態。"
 				}
 			}
 		},
@@ -756,23 +764,23 @@
 			{
 				"Bludgeoning"	:	
 				{
-					"name"		:	"裂開(Split Open)",
-					"effect"	:	"(Crit Effect) 目標得到1d6持續流血傷害。"
+					"name"		:	"打擊盾牌(SHIELD CRASH)",
+					"effect"	:	"你的攻擊對盾牌造成正常傷害，無視硬度值。"
 				},
 				"Piercing"		:	
 				{
-					"name"		:	"驚人的一擊(Send'em Reeling)",
-					"effect"	:	"(Crit Effect) 目標陷入措手不及(flat-footed)，直到其下一輪結束。"
+					"name"		:	"累死惹(EVERYTHING YOU GOT)",
+					"effect"	:	"你處於疲倦狀態(fatigued)。"
 				},
 				"Slashing"		:	
 				{
-					"name"		:	"碎顎斬(Shattered Jaw)",
-					"effect"	:	"(Crit Effect) 目標得到受傷(wound)1，無法說話，或是使用咬擊，直到接受治療。"
+					"name"		:	"切到邊邊(HARD-EDGED ADVERSARY)",
+					"effect"	:	"你受到 2d6 穿刺或斬擊傷害（由 GM 決定）。"
 				},
 				"Other" 		:	
 				{
-					"name"		:	"保護力場(Protective Charm)",
-					"effect"	:	"你得到AC及所有SV+2，直到你的下一輪結束。"
+					"name"		:	"你讓他們變硬了(YOU MADE 'EM TOUGHER)",
+					"effect"	:	"目標獲得對所有傷害的 5 點抗性，直到其下一回合開始。"
 				}
 			}
 		},
@@ -781,23 +789,23 @@
 			{
 				"Bludgeoning"	:	
 				{
-					"name"		:	"嘎嘎(Rattled)",
-					"effect"	:	"一倍傷害。(Crit Effect) 目標陷入困惑(confused)一輪。"
+					"name"		:	"不對勁(THIS IS BAD)",
+					"effect"	:	"你受到 1d10 點持續流血傷害。"
 				},
 				"Piercing"		:	
 				{
-					"name"		:	"防衛攻擊(Guarded Strike)",
-					"effect"	:	"(Crit Effect) 你得到AC+2，直到你的下一輪結束。"
+					"name"		:	"古靈精怪丟(WHAT ARE THE ODDS?)",
+					"effect"	:	"若此次攻擊為投擲武器攻擊，且目標在距牆壁 20 英尺內，武器會反彈並命中牆後的目標。"
 				},
 				"Slashing"		:	
 				{
-					"name"		:	"肌腱重傷(Servered Tendon)",
-					"effect"	:	"(Crit Effect) 目標陷入笨拙(clumsy)1，陸地移動-5 foot，直到接受治療。"
+					"name"		:	"旋風百堂腿(WHIRLWIND OF SHAME)",
+					"effect"	:	"你擊中了所有鄰近你的生物，除了目標本身"
 				},
 				"Other" 		:	
 				{
-					"name"		:	"能量噴發(Power Surge)",
-					"effect"	:	"三倍傷害。"
+					"name"		:	"能量錯置(JUMBLED COMPONENTS)",
+					"effect"	:	"你受到遲緩 2 (Slow 2)狀態，直到你的下一回合結束。"
 				}
 			}
 		},
@@ -806,23 +814,23 @@
 			{
 				"Bludgeoning"	:	
 				{
-					"name"		:	"脛骨碎裂(Busted Shin)",
-					"effect"	:	"(Crit Effect) 目標陷入笨拙(clumsy)1，陸地移動-10 foot，直到接受治療。"
+					"name"		:	"抓住呼吸(CATCH YOUR BREATH)",
+					"effect"	:	"你受到遲緩 2 (Slow 2)狀態，直到你的下一回合結束。"
 				},
 				"Piercing"		:	
 				{
-					"name"		:	"完美攻擊(Perfect Strike)",
-					"effect"	:	"三倍傷害。"
+					"name"		:	"拿錯東西丟了(WRONG WEAPON)",
+					"effect"	:	"若此次攻擊為投擲武器攻擊，你改為拿取你身上的某個物品丟出(GM隨機決定)"
 				},
 				"Slashing"		:	
 				{
-					"name"		:	"衰弱打擊 (Sapping Slash)",
-					"effect"	:	"(Crit Effect) 目標陷入疲乏(fatigued)。"
+					"name"		:	"太靠近了 (GOT TOO CLOSE)",
+					"effect"	:	"這個攻擊視為觸發目標擒拿(Grapple)或抓取(Grab)的反射動作"
 				},
 				"Other" 		:	
 				{
-					"name"		:	"閃電噴射(Light Blast)",
-					"effect"	:	"目標陷入目盲(blinded)，直到其下一輪結束。"
+					"name"		:	"你讓他們更強壯了(YOU MADE 'EM STRONGER)",
+					"effect"	:	"目標得到+2狀態加值在攻擊骰，直到其下一輪結束"
 				}
 			}
 		},
@@ -831,23 +839,23 @@
 			{
 				"Bludgeoning"	:	
 				{
-					"name"		:	"意外的驚喜(Suprise Opening)",
-					"effect"	:	"(Crit Effect) 你得到一個額外的動作，僅可用來攻擊當前目標。"
+					"name"		:	"受比施更有福(BETTER TO GIVE)",
+					"effect"	:	"你擊中了自己而非目標。"
 				},
 				"Piercing"		:	
 				{
-					"name"		:	"割舌(Tongue Piercing)",
-					"effect"	:	"目標需進行DC5的純檢定，當使用法術或是其他相關物品時，直到接受治療。"
+					"name"		:	"武器出問題(WEAPON PROBLEM)",
+					"effect"	:	"若此次攻擊使用了拋射武器(projectile weapon)，武器故障，需花費 2 次互動動作修復。"
 				},
 				"Slashing"		:	
 				{
-					"name"		:	"下巴砍砍 (Brow to Chin)",
-					"effect"	:	"(Crit Effect) 目標進行感知或遠程攻擊-2，直到接受治療。"
+					"name"		:	"打噴嚏(SNEEZE)",
+					"effect"	:	"你受到遲緩 1 (slowed 1)狀態，直到你的下一回合結束。"
 				},
 				"Other" 		:	
 				{
-					"name"		:	"嗅覺麻痺(Olfactory Overload)",
-					"effect"	:	"目標失去嗅覺相關能力，直到接受治療。"
+					"name"		:	"法術暴走(SPELL RUSH)",
+					"effect"	:	"你處於癡呆 1 (stupefied 1)狀態，直到治療前"
 				}
 			}
 		},
@@ -856,23 +864,23 @@
 			{
 				"Bludgeoning"	:	
 				{
-					"name"		:	"肋骨重擊(Cracked Rib)",
-					"effect"	:	"目標陷入疲乏(fatigued)。"
+					"name"		:	"都讓我承受吧(ON THE RECEIVING END)",
+					"effect"	:	"你對自己造成傷害，而非對目標造成傷害。"
 				},
 				"Piercing"		:	
 				{
-					"name"		:	"氣勢上來了(Momentum)",
-					"effect"	:	"你進行所有攻擊骰+2，直到你的下一輪結束。"
+					"name"		:	"站到火線(IN THE LINE OF FIRE)",
+					"effect"	:	"你對最近的盟友造成致命一擊。"
 				},
 				"Slashing"		:	
 				{
-					"name"		:	"血腥 (Gory)",
-					"effect"	:	"目標陷入虛弱(sickened)1。"
+					"name"		:	"撞到牆 (HEAD, MEET WALL)",
+					"effect"	:	"你處於震懾 1 (stunned 1)狀態"
 				},
 				"Other" 		:	
 				{
-					"name"		:	"震懾(Stunned)",
-					"effect"	:	"一倍傷害，目標陷入震懾(stunned)2。"
+					"name"		:	"你聽的到嗎(CAN YOU HEAR ME NOW)",
+					"effect"	:	"直到治療前，你處於失聰狀態(deafened)。"
 				}
 			}
 		},
@@ -881,23 +889,23 @@
 			{
 				"Bludgeoning"	:	
 				{
-					"name"		:	"耳鳴(Bell Ranger)",
-					"effect"	:	"(Crit Effect) 目標陷入虛弱(sickened)2，並且陷入困惑(stupefied)2，直到虛弱解除。"
+					"name"		:	"全有全無(ALL OR NOTHING)",
+					"effect"	:	"你攻擊檢定受到 -1 環境減值，直到你造成致命一擊。"
 				},
 				"Piercing"		:	
 				{
-					"name"		:	"串串燒(Skewered)",
-					"effect"	:	"三倍傷害(Crit Effect) 目標陷入緩慢(slow)1，維持一輪。"
+					"name"		:	"打到耳朵(CLOSE TO THE EAR)",
+					"effect"	:	"你處於失聰狀態(deafened)，直到你的下一回合結束。"
 				},
 				"Slashing"		:	
 				{
-					"name"		:	"氣勢上來了(Momentum)",
-					"effect"	:	"你進行所有攻擊骰+2，直到你的下一輪結束。"
+					"name"		:	"刺痛感(PINS AND NEEDLES)",
+					"effect"	:	"你受到噁心 3(sickened 3)狀態。"
 				},
 				"Other" 		:	
 				{
-					"name"		:	"石化(Petrified)",
-					"effect"	:	"目標陷入石化狀態，維持10分鐘。"
+					"name"		:	"為什麼是我(WHY ME?)",
+					"effect"	:	"你會觸發反應，就像你使用了移動動作。"
 				}
 			}
 		},
@@ -906,23 +914,23 @@
 			{
 				"Bludgeoning"	:	
 				{
-					"name"		:	"我在哪裡我是誰(Where am I?)",
-					"effect"	:	"一倍傷害(Crit Effect) 目標陷入震懾(stunned)2。"
+					"name"		:	"手被剪傷(CLIPPED YOUR HAND)",
+					"effect"	:	"你受到 1d8 點持續流血傷害。"
 				},
 				"Piercing"		:	
 				{
-					"name"		:	"意外的驚喜(Suprise Opening)",
-					"effect"	:	"(Crit Effect) 你得到一個額外的動作，僅可用來攻擊當前目標。"
+					"name"		:	"糟糕！(OOPSIE!)",
+					"effect"	:	"你擊中了自己，而非目標。"
 				},
 				"Slashing"		:	
 				{
-					"name"		:	"耳朵不見惹(Missing Ear)",
-					"effect"	:	"一倍傷害，目標進行感知或魅力相關檢定-2，除了威嚇，直到接受治療。"
+					"name"		:	"嵌甲(INGROWN NAIL)",
+					"effect"	:	"在你達成一次致命一擊之前，攻擊檢定受到 -1 情境減值。"
 				},
 				"Other" 		:	
 				{
-					"name"		:	"心智混亂(Mind Cloud)",
-					"effect"	:	"目標陷入困惑(stupefied)2，直到接受治療。"
+					"name"		:	"啊啊啊打錯了(CLATTO VERATA NECKTIE)",
+					"effect"	:	"你對最近的盟友造成致命一擊。"
 				}
 			}
 		},
@@ -931,23 +939,23 @@
 			{
 				"Bludgeoning"	:	
 				{
-					"name"		:	"脾臟破裂(Ruptured Spleen)",
-					"effect"	:	"一倍傷害(Crit Effect) 目標受到1點持續流血傷害，直到接受【法術】治療。"
+					"name"		:	"災難性失敗(CATASTROPHIC FAILURE)",
+					"effect"	:	"你陷入昏迷(unconscious)，直到你醒來或你的下一回合結束。"
 				},
 				"Piercing"		:	
 				{
-					"name"		:	"肌肉傷害(Muscle Severed)",
-					"effect"	:	"一倍傷害(Crit Effect) 目標陷入笨拙(clumsy)3、力竭(enfeebled)3，直到接受治療。"
+					"name"		:	"用力過猛(OVERTHROW)",
+					"effect"	:	"若攻擊使用了投擲武器，武器將以三倍距離隨機方向飛行（由 GM 決定）。"
 				},
 				"Slashing"		:	
 				{
-					"name"		:	"幹 武器飛出去了(Lean into the Blow)",
-					"effect"	:	"三倍傷害，但是武器掉落。"
+					"name"		:	"痛痛痛(DON'T PICK IT)",
+					"effect"	:	"你變成負傷 1，或你的負傷值增加 1。"
 				},
 				"Other" 		:	
 				{
-					"name"		:	"快樂骨頭(Funny Bone)",
-					"effect"	:	"目標開始無法控制的大笑，陷入緩慢(slow)1並且無法使用反射動作，效果持續到其下一輪結束。"
+					"name"		:	"法術失控(MAGICAL SMACKDOWN)",
+					"effect"	:	"你的下一次豁免自動失敗（但不會致命失敗）。"
 				}
 			}
 		},
@@ -956,23 +964,23 @@
 			{
 				"Bludgeoning"	:	
 				{
-					"name"		:	"骨頭攻擊(Bone Smasher)",
-					"effect"	:	"一倍傷害(Crit Effect) 目標陷入笨拙(clumsy)2並且移動-10foot或笨拙(clumsy)2並且一隻手無法使用(效果自選)，直到接受治療。"
+					"name"		:	"武器打壞(BROKEN HAFT)",
+					"effect"	:	"你的武器當前生命值降到損壞門檻值(BT)。若已損壞，武器將受到 3d6 傷害，無視硬度值。"
 				},
 				"Piercing"		:	
 				{
-					"name"		:	"肺部穿刺(Punctured Lung)",
-					"effect"	:	"(Crit Effect) 目標陷入窒息(suffocating)，直到接受【法術】治療。核心p.478。"
+					"name"		:	"拇指受傷(ALL THUMBS)",
+					"effect"	:	"直到治療前，你處於笨拙 1 (clumsy 1)狀態"
 				},
 				"Slashing"		:	
 				{
-					"name"		:	"單純的疼痛(Pain and Simple)",
-					"effect"	:	"三倍傷害。"
+					"name"		:	"迅雷不及掩耳(WHIFF)",
+					"effect"	:	"你擊中自己而非目標。"
 				},
 				"Other" 		:	
 				{
-					"name"		:	"催眠控制(Hypnotic Link)",
-					"effect"	:	"若此為法術，造成一倍傷害，並且目標被你控制，直到其下一輪結束。"
+					"name"		:	"能量損耗(DRAINING MAGIC)",
+					"effect"	:	"你受到衰弱 1 (drained 1)的影響。"
 				}
 			}
 		},
@@ -981,23 +989,23 @@
 			{
 				"Bludgeoning"	:	
 				{
-					"name"		:	"氣管破壞(Crushed Trachea)",
-					"effect"	:	"(Crit Effect) 目標陷入窒息(suffocating)，直到接受【法術】治療。核心p.478。"
+					"name"		:	"頭暈目眩(GO FOR THE EYES)",
+					"effect"	:	"你受到目眩狀態(dazzled)，直到你的下一回合結束。"
 				},
 				"Piercing"		:	
 				{
-					"name"		:	"刺到東西了(Pierced Elbow)",
-					"effect"	:	"目標一件物品被你打落。(GM決定)"
+					"name"		:	"手指受傷惹(PINCH A FINGER)",
+					"effect"	:	"你受到 1d6 點持續流血傷害。"
 				},
 				"Slashing"		:	
 				{
-					"name"		:	"開放性傷口(Long Gash)",
-					"effect"	:	"一倍傷害(Crit Effect) 目標得到1d4持續流血傷害，此傷口的flat check DC為20。(一般15)"
+					"name"		:	"無法再繼續了(WINDS OF CHANGE)",
+					"effect"	:	"你無攻擊同一個目標，直到你的下一回合結束。"
 				},
 				"Other" 		:	
 				{
-					"name"		:	"衰弱目標(Vulnerability)",
-					"effect"	:	"目標對於產生的傷害類型產生弱點(weakness)5，持續1分鐘。"
+					"name"		:	"出神入化(NOW I SEE YOU...)",
+					"effect"	:	"你的目標變為隱形，直到其下一回合結束或使用敵對行動"
 				}
 			}
 		},
@@ -1006,23 +1014,23 @@
 			{
 				"Bludgeoning"	:	
 				{
-					"name"		:	"失去平衡(Off Balance)",
-					"effect"	:	"一倍傷害，目標使用反射動作同時會視為移動，並且陷入措手不及(flat-footed)，直到其下一輪結束。"
+					"name"		:	"手麻惹(BAD GRIP)",
+					"effect"	:	"你使用該武器進行攻擊時，受到 -2 情境減值，直到你的下一回合結束。"
 				},
 				"Piercing"		:	
 				{
-					"name"		:	"骨刺(Chipped Bone)",
-					"effect"	:	"目標陷入笨拙(clumsy)1，直到接受治療。"
+					"name"		:	"蛤?(HUH?)",
+					"effect"	:	"你處於困惑狀態(confused)"
 				},
 				"Slashing"		:	
 				{
-					"name"		:	"砍砍砍(Hack and Slash)",
-					"effect"	:	"三倍傷害，目標陷入措手不及(flat-footed)，直到其下一輪結束。"
+					"name"		:	"眼花(EYE STRAIN)",
+					"effect"	:	"你受到目眩狀態(dazzled)，直到你的下一回合結束。"
 				},
 				"Other" 		:	
 				{
-					"name"		:	"縮小(Shrink aftereffect)",
-					"effect"	:	"一倍傷害，同時目標體型縮小，如同shrink的效果，直到其下一輪結束。"
+					"name"		:	"噴飛(BLASTOFF)",
+					"effect"	:	"你必須通過意志豁免，否則會被拋到 1d6*5 英尺的空中（或被 GM 決定的隨機方向）。"
 				}
 			}
 		},
@@ -1031,23 +1039,23 @@
 			{
 				"Bludgeoning"	:	
 				{
-					"name"		:	"晚安(Nighty Night)",
-					"effect"	:	"一倍傷害，(Crit Effect) 目標失去意識，直到其下一輪結束。"
+					"name"		:	"吃土(EAT DIRT)",
+					"effect"	:	"你倒地(Prone)並且陷入致盲狀態(blinded)，直到你的下一回合結束。"
 				},
 				"Piercing"		:	
 				{
-					"name"		:	"疼痛的戳戳(Painful Poke)",
-					"effect"	:	"目標陷入震懾(stunned)1。"
+					"name"		:	"完全掩體(OVERCOMPENSATE)",
+					"effect"	:	"目標獲得掩體掩護(AC+4)，對抗你的遠程攻擊"
 				},
 				"Slashing"		:	
 				{
-					"name"		:	"這樣會有傷口喔喔喔(That'll leave a mark)",
-					"effect"	:	"一倍傷害，(Crit Effect) 造成2d6持續流血傷害。"
+					"name"		:	"那吃起來怪怪的(THAT TASTES AWFUL!)",
+					"effect"	:	"如果你是使用咬攻擊(jaw)，你陷入噁心3(sickened 3)。"
 				},
 				"Other" 		:	
 				{
-					"name"		:	"毀滅打擊(Devastating Strike)",
-					"effect"	:	"三倍傷害，目標陷入震懾(stunned)1。"
+					"name"		:	"法術異常(STRANGE TRANSFERENCE)",
+					"effect"	:	"失去一個已準備的法術欄位，由 GM 決定。你的目標可以施放該法術。"
 				}
 			}
 		},
@@ -1056,23 +1064,23 @@
 			{
 				"Bludgeoning"	:	
 				{
-					"name"		:	"短暫暈眩(Dazing Thud)",
-					"effect"	:	"目標陷入震懾(stunned)1。"
+					"name"		:	"等等?什麼??(WAIT, WHAT?)",
+					"effect"	:	"你處於困惑狀態(confused)"
 				},
 				"Piercing"		:	
 				{
-					"name"		:	"臉頰穿刺(Cheek Pierced)",
-					"effect"	:	"目標進行需語言相關的法術，需進行DC5的flat check。"
+					"name"		:	"別射我(DON'T HIT ME!)",
+					"effect"	:	"直到你下一回合結束，每當你未命中遠程攻擊時，會重新隨機分配攻擊目標(重新骰命中)。"
 				},
 				"Slashing"		:	
 				{
-					"name"		:	"視線傷害(Across the eyes)",
-					"effect"	:	"一倍傷害，(Crit Effect) 目標陷入目盲(blinded)，直到接受治療。"
+					"name"		:	"神經緊繃(PINCHED NERVE)",
+					"effect"	:	"你在陸上移動速度受到 -10 英尺情境減值，並處於笨拙 1 (clumsy 1)狀態。"
 				},
 				"Other" 		:	
 				{
-					"name"		:	"變慢(Slowed Down)",
-					"effect"	:	"目標陷入緩慢(slow)2，持續一輪。"
+					"name"		:	"精神不濟(MENTAL SLIP)",
+					"effect"	:	"你被目標控制(controlled)，直到你的下一回合結束。"
 				}
 			}
 		},
@@ -1081,23 +1089,23 @@
 			{
 				"Bludgeoning"	:	
 				{
-					"name"		:	"我是誰我在哪(To Your Thinky Bits)",
-					"effect"	:	"目標陷入呆滯(stupefied)2，直到接受治療。"
+					"name"		:	"震動(VIBRATION)",
+					"effect"	:	"若你使用鈍擊武器，該武器掉落並陷入衰弱 2 (enfeebled 2)狀態，直到治療。"
 				},
 				"Piercing"		:	
 				{
-					"name"		:	"刺穿目標(Clean Through)",
-					"effect"	:	"三倍傷害。"
+					"name"		:	"畏縮(RECOIL)",
+					"effect"	:	"你被推後 5 英尺並倒地(Prone)。"
 				},
 				"Slashing"		:	
 				{
-					"name"		:	"開放傷口(Wide Open)",
-					"effect"	:	"目標陷入措手不及(flat-footed)，直到其下一輪結束。"
+					"name"		:	"刺穿腳(PUNCTURED FOOT)",
+					"effect"	:	"你受到 1d6 持續流血傷害。直到該效果結束，你的陸上移動速度受到 -10 英尺情境減值。"
 				},
 				"Other" 		:	
 				{
-					"name"		:	"龍龍去死ㄅ(Hoarder's Wrath)",
-					"effect"	:	"對龍產生三倍傷害，其餘兩倍傷害。"
+					"name"		:	"精神大打擊(MENTAL BACKLASH)",
+					"effect"	:	"直到治療前，你處於癡呆 3 (stupefied 3)狀態"
 				}
 			}
 		},
@@ -1106,23 +1114,23 @@
 			{
 				"Bludgeoning"	:	
 				{
-					"name"		:	"咳咳咳(Clocked!)",
-					"effect"	:	"三倍傷害，目標被擊倒。"
+					"name"		:	"那是誰!!?(WHO WAS THAT?!)",
+					"effect"	:	"你受到遲緩 1 (Slowed 1)狀態，直到你的下一回合結束。"
 				},
 				"Piercing"		:	
 				{
-					"name"		:	"爆頭(Head Shot)",
-					"effect"	:	"三倍傷害，(Crit Effect) 目標進行體魄(Fortitude)豁免，失敗即死。"
+					"name"		:	"有兩個人欸(SEEING DOUBLE)",
+					"effect"	:	"你受到目眩狀態(dazzled)，直到你的下一回合結束。"
 				},
 				"Slashing"		:	
 				{
-					"name"		:	"從胸部到股溝(From Chops to Groin)",
-					"effect"	:	"三倍傷害，(Crit Effect) 目標進行體魄(Fortitude)豁免，失敗即死。"
+					"name"		:	"牙齒碎惹(BROKEN TOOTH)",
+					"effect"	:	"直到治療前，所有攻擊檢定受到 -2 情境減值。"
 				},
 				"Other" 		:	
 				{
-					"name"		:	"毀滅(Doomed!)",
-					"effect"	:	"目標緩慢(slow)1，維持一輪。並且得到毀滅(doom)1。"
+					"name"		:	"多重影分身之術(FRAGMENTED MAGIC!)",
+					"effect"	:	"你的目標獲得鏡像術(mirror image)的效果。"
 				}
 			}
 		},
@@ -1131,23 +1139,23 @@
 			{
 				"Bludgeoning"	:	
 				{
-					"name"		:	"腸子破壞(Crushed Intestines)",
-					"effect"	:	"一倍傷害，(Crit Effect) 目標得到重傷(wound)2，並且陷入力竭(enfeebled)2此效果維持直到重傷痊癒。"
+					"name"		:	"戰爭迷霧(FOG OF WAR)",
+					"effect"	:	"你受到目眩狀態(dazzled)，直到你的下一回合結束。"
 				},
 				"Piercing"		:	
 				{
-					"name"		:	"痛到骨髓(Lodged in the Bone)",
-					"effect"	:	"(Crit Effect) 目標得到1d6持續流血傷害。"
+					"name"		:	"命中紅心(BULL'S EYE)",
+					"effect"	:	"你的攻擊反彈並打到自己眼睛附近。你陷入致盲狀態(blinded)，直到你的下一回合結束。"
 				},
 				"Slashing"		:	
 				{
-					"name"		:	"脊椎重傷(Severed Spine)",
-					"effect"	:	"(Crit Effect) 目標進行體魄(Fortitude)豁免，失敗被麻痺，直到接受治療。"
+					"name"		:	"自損一百傷敵一(JAM A FINGER)",
+					"effect"	:	"你對目標造成最低限度的傷害，同時你也受到該攻擊的正常傷害。"
 				},
 				"Other" 		:	
 				{
-					"name"		:	"精神破壞(Psychic Overflow)",
-					"effect"	:	"目標得到1d8精神傷害。"
+					"name"		:	"什麼都好可怕(EVERYTHING TO FEAR)",
+					"effect"	:	"你受到驚嚇 3 (frightened 3)狀態。"
 				}
 			}
 		},
@@ -1156,23 +1164,23 @@
 			{
 				"Bludgeoning"	:	
 				{
-					"name"		:	"肺爆了(Collapsed Lung)",
-					"effect"	:	"一倍傷害，(Crit Effect) 目標陷入力竭(enfeebled)2，直到重傷痊癒。"
+					"name"		:	"重傷(POINTY END GOES THERE)",
+					"effect"	:	"你變成負傷 1 或負傷值增加 1。"
 				},
 				"Piercing"		:	
 				{
-					"name"		:	"傷到神經(Nerve Cluster)",
-					"effect"	:	"一倍傷害，(Crit Effect) 目標陷入震懾(stunned)2。"
+					"name"		:	"萬分專注(TUNNEL VISION)",
+					"effect"	:	"在接下來的 3 個回合內，你的攻擊檢定獲得 +1 情境加值，但你處於措手不及(flat-footed)狀態。"
 				},
 				"Slashing"		:	
 				{
-					"name"		:	"腹腔打擊(Rupture Aboominal Cavity)",
-					"effect"	:	"三倍傷害，目標陷入疲乏(fatigued)。"
+					"name"		:	"頭暈(HEAD FIRST)",
+					"effect"	:	"你陷入昏迷(unconscious)，直到你醒來或你的下一回合結束。"
 				},
 				"Other" 		:	
 				{
-					"name"		:	"調換位置(Transposition)",
-					"effect"	:	"若此為法術攻擊，你與目標位置調換。"
+					"name"		:	"狂野魔法(WILD MAGIC)",
+					"effect"	:	"在魔杖奇效表上擲骰兩次。你成為這些效果的目標。https://2e.aonprd.com/Equipment.aspx?ID=3025&Redirected=1"
 				}
 			}
 		},
@@ -1181,23 +1189,23 @@
 			{
 				"Bludgeoning"	:	
 				{
-					"name"		:	"壓扁(Crunch)",
-					"effect"	:	"(Crit Effect) 目標陷入虛弱(sickened)3"
+					"name"		:	"選擇麻痺(DECISION PARALYSIS)",
+					"effect"	:	"你受到遲緩 1 (slowed 1)狀態，直到你的下一回合結束。"
 				},
 				"Piercing"		:	
 				{
-					"name"		:	"前臂傷害(Forearm Piercing)",
-					"effect"	:	"(Crit Effect) 目標手持武器掉落。(GM決定)"
+					"name"		:	"跟腱斷裂(TORN TENDON)",
+					"effect"	:	"直到治療前，你處於笨拙 2 (clumsy 2)狀態。"
 				},
 				"Slashing"		:	
 				{
-					"name"		:	"意外的驚喜(Suprise Opening)",
-					"effect"	:	"(Crit Effect) 你得到一個額外的動作，僅可用來攻擊當前目標。"
+					"name"		:	"踢到腳趾(STINGING FAILURE)",
+					"effect"	:	"直到治療前，使用此攻擊進行攻擊檢定時，受到 -2 情境減值"
 				},
 				"Other" 		:	
 				{
-					"name"		:	"過敏反應(Allergic Reaction)",
-					"effect"	:	"目標得到1d8毒傷害。"
+					"name"		:	"毀滅(CURSED)",
+					"effect"	:	"你受到毀滅 1 (Doom 1)狀態。"
 				}
 			}
 		},
@@ -1206,23 +1214,23 @@
 			{
 				"Bludgeoning"	:	
 				{
-					"name"		:	"肋骨痛擊(Broken Ribs)",
-					"effect"	:	"一倍傷害，(Crit Effect) 目標陷入緩慢(slow)1，直到接受治療。"
+					"name"		:	"在黑暗中戰鬥(ATTACK THE DARKNESS)",
+					"effect"	:	"你的敵人在你的下一回合結束前對你隱蔽(concealed)。"
 				},
 				"Piercing"		:	
 				{
-					"name"		:	"脊椎刺擊(Spinal Tap)",
-					"effect"	:	"一倍傷害，(Crit Effect) 目標陷入虛弱(sickened)3。"
+					"name"		:	"再三確認(AIM CAREFULLY NEXT TIME)",
+					"effect"	:	"在你下一回合結束前，你的攻擊需要第二次攻擊檢定來確認命中。"
 				},
 				"Slashing"		:	
 				{
-					"name"		:	"神經切除(Nerve Slice)",
-					"effect"	:	"(Crit Effect) 目標陷入緩慢(slow)2，持續一輪。"
+					"name"		:	"狂亂碰撞(BRUTAL COLLISION)",
+					"effect"	:	"你處於震懾 1 (stunned 1)狀態。若你倒地，你會受到震懾 3 (stunned 3)狀態。"
 				},
 				"Other" 		:	
 				{
-					"name"		:	"力場噴射(Forceful blast)",
-					"effect"	:	"目標得到1d8力場傷害。"
+					"name"		:	"增益轉移(POWER TRANSFER)",
+					"effect"	:	"目前影響你的最高等級有益法術效果轉移到你的目標身上。"
 				}
 			}
 		},
@@ -1231,23 +1239,23 @@
 			{
 				"Bludgeoning"	:	
 				{
-					"name"		:	"暈眩(Brained)",
-					"effect"	:	"目標陷入震懾(stunned)1。"
+					"name"		:	"狂亂步伐(MEANT TO DO THAT)",
+					"effect"	:	"你隨機的移動10呎(方向由GM決定)，此移動會觸發反應動作。"
 				},
 				"Piercing"		:	
 				{
-					"name"		:	"刺傷腎臟(Kidney Piercing)",
-					"effect"	:	"目標陷入虛弱(sickened)2。"
+					"name"		:	"誤判距離(MISJUDGED THE DISTANCE)",
+					"effect"	:	"直到你的下一回合結束，你全部的遠程攻擊的懲罰值*2"
 				},
 				"Slashing"		:	
 				{
-					"name"		:	"神經切除(Fingertipped)",
-					"effect"	:	"一倍傷害，目標陷入笨拙(clumsy)1並且其中一隻手無法使用，直到接受治療。"
+					"name"		:	"不是弱點(NOT THE WEAK POINT)",
+					"effect"	:	"你受到 1d6 點持續流血傷害，並且無法使用這個攻擊，直到你的下一回合結束。"
 				},
 				"Other" 		:	
 				{
-					"name"		:	"燒眼睛(Eyeburn)",
-					"effect"	:	"目標陷入目盲(blinded)，直到其下一輪結束。"
+					"name"		:	"那怎麼可能會發生?(HOW DID THAT HAPPEN?)",
+					"effect"	:	"你呼喚了濃霧在你的四周，觸發臭雲術(Stinking Cloud)以你自身為中心。"
 				}
 			}
 		},
@@ -1256,23 +1264,23 @@
 			{
 				"Bludgeoning"	:	
 				{
-					"name"		:	"頭上轉轉轉敲(Overwhelming Smash)",
-					"effect"	:	"三倍傷害。"
+					"name"		:	"飛走ㄌ(PUNT)",
+					"effect"	:	"你的武器以 1d4 × 5 英尺的距離飛向隨機方向（由 GM 決定）。"
 				},
 				"Piercing"		:	
 				{
-					"name"		:	"刺傷動脈(Nicked an Artery)",
-					"effect"	:	"一倍傷害，(Crit Effect) 造成2d6持續流血傷害。"
+					"name"		:	"太多血了(SO MUCH BLOOD)",
+					"effect"	:	"你受到噁心 3(sickened 3)狀態。"
 				},
 				"Slashing"		:	
 				{
-					"name"		:	"印象深刻的傷痕(Carve your Initials)",
-					"effect"	:	"一倍傷害，目標對於你的攻擊感到無比羞辱，開始只會對你持續攻擊。其每輪結束時，可進行意志SV以結束此效果。"
+					"name"		:	"非預期的移動(UNINTENTIONAL MOVE)",
+					"effect"	:	"你隨機的移動10呎(方向由GM決定)，此移動會觸發反應動作。"
 				},
 				"Other" 		:	
 				{
-					"name"		:	"分心(Distraction)",
-					"effect"	:	"目標陷入措手不及(flat-footed)，直到其下一輪結束。"
+					"name"		:	"真是太閃爍了(IT'S SO SPARKLY)",
+					"effect"	:	"你受到致盲狀態(blinded)，直到你的下一回合結束。"
 				}
 			}
 		},
@@ -1281,23 +1289,23 @@
 			{
 				"Bludgeoning"	:	
 				{
-					"name"		:	"頭被敲爆惹(Caved Skull)",
-					"effect"	:	"三倍傷害。(Crit Effect) 目標進行體魄(Fortitude)，失敗即死。"
+					"name"		:	"失敗的跌落(BAD FALL)",
+					"effect"	:	"你倒地並且受到遲緩 1 (slowed 1)狀態，直到你的下一回合結束。"
 				},
 				"Piercing"		:	
 				{
-					"name"		:	"過度反應(Overreaction)",
-					"effect"	:	"一倍傷害，目標使用反射動作同時會視為移動，並且陷入措手不及(flat-footed)，直到其下一輪結束"
+					"name"		:	"扭傷射擊(SPRAINING SHOT)",
+					"effect"	:	"直到治療前，你的陸地移動速度受到 -10 英尺情境減值，且你處於笨拙 1 (clumsy 1)狀態。"
 				},
 				"Slashing"		:	
 				{
-					"name"		:	"就像切紙一樣(Paper Cut)",
-					"effect"	:	"目標所有攻擊-2，直到其下一輪結束。"
+					"name"		:	"狀態不佳(BAD JAM)",
+					"effect"	:	"你處於笨拙 1 (clumsy 1)狀態，並且處於衰弱 2 (enfeebled 2)狀態。"
 				},
 				"Other" 		:	
 				{
-					"name"		:	"非自然的選擇(Unnatural Selection)",
-					"effect"	:	"針對Aberrations、Celestials、Fiends、Monitors類別目標產生三倍傷害，其餘兩倍傷害。"
+					"name"		:	"腦袋要爆了(EXPLODING SKULL)",
+					"effect"	:	"你必須進行一次強韌檢定。若成功，受到 3d6 點心靈傷害。若失敗，你的頭顱爆炸並且死亡。"
 				}
 			}
 		},
@@ -1306,23 +1314,23 @@
 			{
 				"Bludgeoning"	:	
 				{
-					"name"		:	"耳朵爆惹(Box the Ears)",
-					"effect"	:	"目標陷入耳聾(deafened)，直到接受治療。"
+					"name"		:	"方向錯誤(WRONG END)",
+					"effect"	:	"若你使用斬擊武器，受到 1d6 點斬擊傷害並且 1 點持續流血傷害。"
 				},
 				"Piercing"		:	
 				{
-					"name"		:	"精準射擊(Javelin Catcher)",
-					"effect"	:	"若為遠程或是投擲傷害，產生三倍傷害，其餘兩倍傷害。"
+					"name"		:	"詭異的風(PHANTOM WIND)",
+					"effect"	:	"你在下一回合結束前，所有遠程攻擊檢定受到 -2 情境減值"
 				},
 				"Slashing"		:	
 				{
-					"name"		:	"嘴唇切除(Lip Cut)",
-					"effect"	:	"目標進行需語言相關的法術，需進行DC5的flat check，直到接受治療。"
+					"name"		:	"想太多(OVERTHINK IT)",
+					"effect"	:	"你的攻擊目標對抗你攻擊時獲得 +2 情境加值至 AC，直到你的下一回合結束。"
 				},
 				"Other" 		:	
 				{
-					"name"		:	"大自然的呼喚(Call of the Wild)",
-					"effect"	:	"針對Animals、Beasts、Feys、類別目標產生三倍傷害，其餘兩倍傷害。"
+					"name"		:	"能量失控(POWER DOWN)",
+					"effect"	:	"直到治療前，你處於癡呆 2 (stupefied 2)狀態。"
 				}
 			}
 		}
