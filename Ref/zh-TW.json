@@ -256,23 +256,23 @@
 			{
 				"Bludgeoning"	:	
 				{
-					"name"		:	"蛋蛋攻擊(Low Blow)",
-					"effect"	:	"(Crit Effect) 目標陷入虛弱(sickened)2，並且緩慢(slow)1，當虛弱狀態未解除前。"
+					"name"		:	"奶油手(BUTTERFINGERS)",
+					"effect"	:	"你掉落進行攻擊時使用的武器"
 				},
 				"Piercing"		:	
 				{
-					"name"		:	"步履蹣跚(Hobbled)",
-					"effect"	:	"(Crit Effect) 目標陷入笨拙(clumsy)2，並且移動-10 feet，直到接受治療。"
+					"name"		:	"弓弦斷了(SNAPPED STRING)",
+					"effect"	:	"若攻擊使用弓類武器，弦斷裂，需要 3 次互動動作來修復。"
 				},
 				"Slashing"		:	
 				{
-					"name"		:	"隔擋失敗(Bad Parry)",
-					"effect"	:	"(Crit Effect) 目標需進行反射(Reflex)豁免，失敗所持的武器被擊落。"
+					"name"		:	"肌肉撕裂傷(TORN MUSCLE)",
+					"effect"	:	"直到治療前，你處於衰弱1(Enfeebled 1)狀態"
 				},
 				"Other" 		:	
 				{
-					"name"		:	"次元裂縫(Planar Rift)",
-					"effect"	:	"若此為法術攻擊，造成一倍傷害。該目標進行意志豁免，失敗則被傳送到其他次元。"
+					"name"		:	"法術衰竭(MAGIC FATIGUE)",
+					"effect"	:	"直到你的下一回合結束前，你無法施放任何法術。"
 				}
 			}
 		},
@@ -281,23 +281,23 @@
 			{
 				"Bludgeoning"	:	
 				{
-					"name"		:	"驚人的打擊(Staggering Blow)",
-					"effect"	:	"(Crit Effect) 目標陷入震懾(stunned)2。"
+					"name"		:	"滑倒(SLIPPED)",
+					"effect"	:	"你倒地(Prone)"
 				},
 				"Piercing"		:	
 				{
-					"name"		:	"一箭穿心(Heart Shot)",
-					"effect"	:	"三倍傷害，(Crit Effect) 目標得到1d4持續流血傷害。"
+					"name"		:	"自爆(BACKFIRE)",
+					"effect"	:	"你擊中了自己而非目標。"
 				},
 				"Slashing"		:	
 				{
-					"name"		:	"打腿腿(Leg Swipe)",
-					"effect"	:	"目標倒地。"
+					"name"		:	"自尊心受創(BRUISED EGO)",
+					"effect"	:	"你無法攻擊其他生物，直到目標被擊倒或你的下一回合結束。"
 				},
 				"Other" 		:	
 				{
-					"name"		:	"可怕的效果(Terrifying Display)",
-					"effect"	:	"目標陷入恐懼(frightened)3。"
+					"name"		:	"流鼻血(NOSEBLEED)",
+					"effect"	:	"你受到 1 點持續流血傷害。"
 				}
 			}
 		},
@@ -306,23 +306,23 @@
 			{
 				"Bludgeoning"	:	
 				{
-					"name"		:	"腦震盪(Concussion)",
-					"effect"	:	"一倍傷害，目標陷入困惑(confused)1分鐘，呆滯(stupefied)2，直到接受治療。"
+					"name"		:	"砍到自己(BACKSWING)",
+					"effect"	:	"你對自己造成該攻擊的正常傷害，而非對目標造成傷害。"
 				},
 				"Piercing"		:	
 				{
-					"name"		:	"破傷風(Infection)",
-					"effect"	:	"目標進行體魄(Fortitude)豁免，失敗得到Filth Fever(怪物手冊p.258)。"
+					"name"		:	"門戶大開(WIDE OPEN)",
+					"effect"	:	"你處於措手不及(flat-footed)狀態，直到你的下一回合結束"
 				},
 				"Slashing"		:	
 				{
-					"name"		:	"剝皮(Flay)",
-					"effect"	:	"一倍傷害，目標陷入力竭(enfeebled)3，直到接受治療。"
+					"name"		:	"跌倒(TRIPPED)",
+					"effect"	:	"你倒地(Prone)"
 				},
 				"Other" 		:	
 				{
-					"name"		:	"腐蝕(Corrosive)",
-					"effect"	:	"若為酸蝕傷害，造成三倍傷害，並且造成1d6持續酸蝕傷害；其餘傷害造成兩倍傷害。"
+					"name"		:	"被裝備纏住(TANGLED IN YOUR GEAR)",
+					"effect"	:	"你受到過重(Encumbered)狀態，直到你花費 2 次互動動作來解脫。"
 				}
 			}
 		},
